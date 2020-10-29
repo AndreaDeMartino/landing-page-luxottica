@@ -5,12 +5,11 @@
 </p>
 
 ## Deployed project
-```
+
 https://andreademartino.github.io/landing-page-luxottica/
 
-```
-
 ## Project setup
+
 ```
 Open index.html or use live server, if you prefer.
 
