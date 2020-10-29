@@ -1,0 +1,31 @@
+/****************************************************
+  * Section Contacts
+****************************************************/
+
+.contacts{
+  width: 100%;
+  height: 152px;
+  background-color: #02212c;
+}
+
+.contacts>.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts__welcome {
+  width: 760px;
+  font-family: 'DINOT-regular';
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contacts__welcome>span{
+  font-family: 'DINOT-bold';
+  font-size: 20px;
+}

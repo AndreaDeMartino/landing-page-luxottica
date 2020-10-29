@@ -1,0 +1,77 @@
+/****************************************************
+  * Section Products
+****************************************************/
+
+.products{
+  min-height: 300px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products__title{
+  font-family: 'DINOT-medium';
+  font-size: 26px;
+  text-align: center;
+  color: #02212c;
+  margin: 38px 0;
+}
+
+.products__box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 23px;
+}
+
+.product{
+  width: 230px;
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4%;
+  margin-bottom: 13px;
+  text-align: center;
+  color: #333333;
+}
+
+.product:nth-child(4n) {
+  margin-right: 0
+}
+
+.product__logo{
+  max-width: 100%;
+  height: 115px;
+}
+
+.product__badge{
+  width: 200px;
+  height: 23px;
+  margin: 6px 0 11px 0;
+}
+
+.product__info{
+  width: 230px;
+  height: 54px;
+  font-family: 'DINOT-medium';
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.product__sub-info{
+  width: 230px;
+  font-family: 'DINOT-regular';
+  font-size: 13px;
+}
+
+.btn--products{
+  background-color: #d54400;
+}

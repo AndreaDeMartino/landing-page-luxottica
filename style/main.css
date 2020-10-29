@@ -1,0 +1,39 @@
+/****************************************************
+  * GENERAL
+****************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.container{
+  width: 82%;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 225px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "DINOT-medium";
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  opacity: 0.85;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+.btn>span{
+  margin-top: 2px;
+}
+
+.btn:hover{
+  opacity: 1;
+}

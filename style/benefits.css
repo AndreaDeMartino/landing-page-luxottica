@@ -1,0 +1,158 @@
+/****************************************************
+  * Section Benefits
+****************************************************/
+
+.benefits {
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits__title {
+  width: 789px;
+  max-width: 100%;
+  font-family: "DINOT-medium";
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 26px;
+  margin-top: 45px;
+}
+
+.benefits__cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits__card {
+  width: 426px;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.benefits__card__icon {
+  margin-bottom: 11px;
+}
+
+.benefits__card__title {
+  width: 295px;
+  height: 63px;
+  font-family: "DINOT-regular";
+  font-size: 16.5px;
+  line-height: 2.24;
+}
+
+.benefits__card__sub-title {
+  width: 295px;
+  font-family: "DINOT-regular";
+  font-size: 14px;
+}
+
+.benifts__card--shipping {
+  background-color: #d54400;
+}
+
+.benifts__card--stock {
+  background-color: #0080a9;
+}
+
+.benifts__card--customer {
+  background-color: #02212c;
+}
+
+.benefits__banner {
+  width: 100%;
+  position: relative;
+}
+
+.benefits__banner__jumbo {
+  max-width: 100%;
+}
+
+.benefits__banner__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #02212c;
+  margin-top: 250px;
+}
+
+.benefits__banner__title {
+  width: 374px;
+  height: 89px;
+  font-family: "DINOT-bold";
+  font-size: 30.7px;
+  line-height: 1.06;
+  letter-spacing: 0.61px;
+}
+
+.benefits__banner__sub-title {
+  width: 335px;
+  height: 72px;
+  font-family: "DINOT-regular";
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.1px;
+  margin-bottom: 8px;
+}
+
+.btn--benefits {
+  background-color: #0080a9;
+}
+
+.benefits__sponsors {
+  width: 100%;
+  min-height: 251px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0080a9;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.benefits__sponsors__title {
+  width: 368px;
+  font-family: "DINOT-bold";
+  font-size: 34px;
+  margin-bottom: 9px;
+}
+
+.benefits__sponsors__subtitle {
+  width: 402px;
+  font-family: "DINOT-regular";
+  font-size: 17px;
+  margin-bottom: 24px;
+}
+
+.benefits__sponsors__logo {
+  width: 687px;
+  height: 34px;
+  background: url('../assets/sponsors.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 37px;
+}
+
+.benefits__sponsors__more {
+  width: 105px;
+  font-family: "DINOT-black";
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 41px;
+}

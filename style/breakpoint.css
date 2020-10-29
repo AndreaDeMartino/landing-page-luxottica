@@ -1,0 +1,391 @@
+/****************************************************
+  * BREAKPOINT 
+****************************************************/
+
+/* === SMALL PHONES === */
+@media (max-width: 575px) {
+  #app {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .hero__banner {
+    display: none;
+  }
+
+  .hero::before {
+    content: "";
+    background-image: url("../assets/hero_banner_sm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero__text {
+    position: unset;
+    margin: 9px 0 32px 0;
+  }
+
+  .exclusively-for-your {
+    max-width: 290px;
+    font-size: 20px;
+    margin: 9px 0 7px 0;
+  }
+
+  .off-orders-above {
+    max-width: 290px;
+    font-size: 36px;
+  }
+
+  .free-shipping {
+    font-size: 20.7px;
+    padding-bottom: 14px;
+  }
+
+  .hero__text--code {
+    width: 280px;
+  }
+
+  .apply-code-FALL50-at {
+    font-size: 19.4px;
+    width: 100%;
+  }
+
+  .apply-code-FALL50-at .fall50 {
+    font-size: 19.4px;
+  }
+
+  .checkout {
+    display: none;
+  }
+
+  .btn--copy-code {
+    width: 130px;
+    height: 24px;
+    font-size: 14px;
+    padding: 8px 8px 4px 8px;
+  }
+
+  .btn {
+    width: 190px;
+    background-color: #d54400;
+  }
+
+  .contacts__welcome {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "DINOT-light";
+  }
+
+  .contacts__welcome > span {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .product {
+    margin-bottom: 43px;
+  }
+
+  .benefits__cards > .benefits__card {
+    width: 100%;
+  }
+
+  .benefits__banner {
+    width: 100%;
+    position: relative;
+    margin-bottom: 41px;
+  }
+
+  .benefits__banner__jumbo {
+    display: none;
+  }
+
+  .benefits__banner::before {
+    content: "";
+    position: absolute;
+    background-image: url("../assets/contacts_banner_sm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 225px;
+    width: 375px;
+  }
+
+  .benefits .benefits__sponsors__title {
+    width: 238px;
+    font-size: 22px;
+    margin-top: 43px;
+  }
+
+  .benefits .benefits__sponsors__subtitle {
+    width: 336px;
+    font-size: 14px;
+  }
+
+  .benefits .benefits__sponsors__logo {
+    background: url("../assets/sponsors_sm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 306px;
+    height: 63px;
+    margin-bottom: 31px;
+  }
+
+  .benefits .benefits__sponsors__more {
+    width: 375px;
+    font-size: 16px;
+  }
+}
+
+/* === PHONES === */
+@media (min-width: 576px) and (max-width: 767px) {
+  #app {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .hero__banner {
+    display: none;
+  }
+
+  .hero::before {
+    content: "";
+    background-image: url("../assets/hero_banner_sm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero__text {
+    position: unset;
+    margin: 9px 0 32px 0;
+  }
+
+  .exclusively-for-your {
+    font-size: 20px;
+  }
+
+  .off-orders-above {
+    font-size: 36px;
+  }
+
+  .free-shipping {
+    font-size: 20.7px;
+    padding-bottom: 14px;
+  }
+
+  .hero__text--code {
+    width: 280px;
+  }
+
+  .apply-code-FALL50-at {
+    font-size: 19.4px;
+    width: 100%;
+  }
+
+  .apply-code-FALL50-at .fall50 {
+    font-size: 19.4px;
+  }
+
+  .checkout {
+    display: none;
+  }
+
+  .btn--copy-code {
+    width: 130px;
+    height: 24px;
+    font-size: 14px;
+    padding: 8px 8px 4px 8px;
+  }
+
+  .btn {
+    width: 190px;
+    background-color: #d54400;
+  }
+
+  .contacts__welcome {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "DINOT-light";
+  }
+
+  .contacts__welcome > span {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .product {
+    margin-bottom: 43px;
+  }
+
+  .benefits__cards > .benefits__card {
+    width: 100%;
+  }
+
+  .benefits .benefits__banner__text {
+    display: none;
+  }
+
+  .benefits .benefits__sponsors__title {
+    width: 238px;
+    font-size: 22px;
+    margin-top: 43px;
+  }
+
+  .benefits .benefits__sponsors__subtitle {
+    width: 336px;
+    font-size: 14px;
+  }
+
+  .benefits .benefits__sponsors__logo {
+    background: url("../assets/sponsors_sm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 306px;
+    height: 63px;
+    margin-bottom: 31px;
+  }
+
+  .benefits .benefits__sponsors__more {
+    width: 375px;
+    font-size: 16px;
+  }
+}
+
+/* === TABLETS === */
+@media (min-width: 768px) and (max-width: 991px) {
+  #app {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .exclusively-for-your {
+    font-size: 20px;
+  }
+
+  .off-orders-above {
+    font-size: 24.4px;
+  }
+
+  .free-shipping {
+    font-size: 14px;
+    padding-bottom: 14px;
+  }
+
+  .hero__text--code {
+    width: 340px;
+  }
+
+  .apply-code-FALL50-at {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .btn--copy-code {
+    font-size: 10px;
+    padding: 5px 3px 3px 3px;
+    margin-bottom: 5px;
+  }
+
+  .apply-code-FALL50-at .fall50,
+  .apply-code-FALL50-at .checkout {
+    font-size: 14px;
+  }
+
+  .contacts__welcome {
+    width: 100%;
+  }
+
+  .benefits__cards > .benefits__card {
+    width: 100%;
+  }
+
+  .benefits .benefits__banner__text {
+    display: none;
+  }
+}
+
+/* === DESKTOP === */
+@media (min-width: 992px) and (max-width: 1279px) {
+  #app {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .exclusively-for-your {
+    font-size: 30px;
+  }
+
+  .off-orders-above {
+    font-size: 34.4px;
+  }
+
+  .free-shipping {
+    font-size: 19.6px;
+    padding-bottom: 14px;
+  }
+
+  .apply-code-FALL50-at {
+    font-size: 17.7px;
+    width: 100%;
+  }
+
+  .btn--copy-code {
+    font-size: 12px;
+    padding: 7px 5px 5px 5px;
+    margin-bottom: 3px;
+  }
+
+  .apply-code-FALL50-at .fall50,
+  .apply-code-FALL50-at .checkout {
+    font-size: 17.7px;
+  }
+
+  .benefits__cards > .benefits__card {
+    width: 100%;
+  }
+
+  .benefits .benefits__banner__text {
+    display: none;
+  }
+}
+
+/* === LARGE DESKTOP === */
+@media (min-width: 1280px) {
+  #app {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .benefits .benefits__banner__text {
+    display: none;
+  }
+}
