@@ -41,14 +41,14 @@
   justify-content: center;
   align-items: center;
   border-radius: 12.5px;
-  background-color: var(--black);
   font-family: "DINOT-medium";
   font-size: 14px;
   padding: 5px;
-  color: var(--white);
   cursor: pointer;
   margin-bottom: 6px;
   transition: color 0.2s linear;
+  color: var(--white);
+  background-color: var(--black);
 }
 
 .btn--copy-code:hover {

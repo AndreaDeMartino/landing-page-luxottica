@@ -1,0 +1,11 @@
+# Luxottica
+
+<p align="center">
+ <img src="https://i.ibb.co/XCdd4Z8/Screenshot-2020-10-29-at-20-17-35.png" align="center" alt="Luxottica img" />
+</p>
+
+## Project setup
+```
+open index.html or use live server if you prefer
+
+```

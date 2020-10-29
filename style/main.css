@@ -9,12 +9,6 @@
   font-size: 14px;
 }
 
-/* Container */
-.container {
-  width: 82%;
-  margin: 0 auto;
-}
-
 /* Colors */
 :root {
   --white: #ffffff;
@@ -49,4 +43,10 @@
 
 .btn:hover {
   opacity: 1;
+}
+
+/* Container */
+.container {
+  width: 82%;
+  margin: 0 auto;
 }
