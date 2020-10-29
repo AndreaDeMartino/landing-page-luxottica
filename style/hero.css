@@ -25,7 +25,7 @@
   text-transform: uppercase;
   letter-spacing: normal;
   text-align: center;
-  color: #02212c;
+  color: var(--black);
 }
 
 .hero__text--code {
@@ -41,22 +41,22 @@
   justify-content: center;
   align-items: center;
   border-radius: 12.5px;
-  background-color: #02212c;
+  background-color: var(--black);
   font-family: "DINOT-medium";
   font-size: 14px;
   padding: 5px;
-  color: #ffffff;
+  color: var(--white);
   cursor: pointer;
   margin-bottom: 6px;
   transition: color 0.2s linear;
 }
 
 .btn--copy-code:hover {
-  color: #75b38f;
+  color: var(--green);
 }
 
 .btn--hero{
-  background-color: #d54400;
+  background-color: var(--orange);
 }
 
 /* Hero Typography */

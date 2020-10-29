@@ -17,7 +17,7 @@
   font-family: 'DINOT-medium';
   font-size: 26px;
   text-align: center;
-  color: #02212c;
+  color: var(--black);
   margin: 38px 0;
 }
 
@@ -40,8 +40,15 @@
   margin-right: 4%;
   margin-bottom: 13px;
   text-align: center;
-  color: #333333;
+  color: var(--grey);
+  cursor: pointer;
+  transition: transform 0.3s linear;
 }
+
+.product:hover{
+  transform: scale(1.1);
+}
+
 
 .product:nth-child(4n) {
   margin-right: 0
@@ -73,5 +80,5 @@
 }
 
 .btn--products{
-  background-color: #d54400;
+  background-color: var(--orange);
 }

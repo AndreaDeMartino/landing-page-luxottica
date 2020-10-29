@@ -9,11 +9,24 @@
   font-size: 14px;
 }
 
-.container{
+/* Container */
+.container {
   width: 82%;
   margin: 0 auto;
 }
 
+/* Colors */
+:root {
+  --white: #ffffff;
+  --black: #02212c;
+  --dark: #000000;
+  --grey: #333333;
+  --blue: #0080a9;
+  --orange: #d54400;
+  --green: #75b38f;
+}
+
+/* Button */
 .btn {
   width: 225px;
   height: 40px;
@@ -24,16 +37,16 @@
   font-size: 16px;
   font-family: "DINOT-medium";
   letter-spacing: 0.5px;
-  color: #ffffff;
+  color: var(--white);
   opacity: 0.85;
   cursor: pointer;
   transition: opacity 0.3s linear;
 }
 
-.btn>span{
+.btn > span {
   margin-top: 2px;
 }
 
-.btn:hover{
+.btn:hover {
   opacity: 1;
 }

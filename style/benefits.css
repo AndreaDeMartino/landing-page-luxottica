@@ -16,7 +16,7 @@
   font-family: "DINOT-medium";
   font-size: 26px;
   text-align: center;
-  color: #000000;
+  color: var(--dark);
   margin-bottom: 26px;
   margin-top: 45px;
 }
@@ -37,7 +37,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .benefits__card__icon {
@@ -59,15 +59,15 @@
 }
 
 .benifts__card--shipping {
-  background-color: #d54400;
+  background-color: var(--orange);
 }
 
 .benifts__card--stock {
-  background-color: #0080a9;
+  background-color: var(--blue);
 }
 
 .benifts__card--customer {
-  background-color: #02212c;
+  background-color: var(--black);
 }
 
 .benefits__banner {
@@ -85,7 +85,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #02212c;
+  color: var(--black);
   margin-top: 250px;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .btn--benefits {
-  background-color: #0080a9;
+  background-color: var(--blue);
 }
 
 .benefits__sponsors {
@@ -120,8 +120,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #0080a9;
-  color: #ffffff;
+  background-color: var(--blue);
+  color: var(--white);
   margin-top: -10px;
 }
 
@@ -129,6 +129,7 @@
   width: 368px;
   font-family: "DINOT-bold";
   font-size: 34px;
+  padding-top: 39px;
   margin-bottom: 9px;
 }
 
@@ -155,4 +156,5 @@
   font-size: 16px;
   letter-spacing: 0.5px;
   margin-bottom: 41px;
+  cursor: pointer;
 }

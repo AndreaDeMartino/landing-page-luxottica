@@ -80,7 +80,7 @@
 
   .btn {
     width: 190px;
-    background-color: #d54400;
+    background-color: var(--orange);
   }
 
   .contacts__welcome {
@@ -228,7 +228,7 @@
 
   .btn {
     width: 190px;
-    background-color: #d54400;
+    background-color: var(--orange);
   }
 
   .contacts__welcome {
