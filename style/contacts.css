@@ -29,3 +29,51 @@
   font-family: 'DINOT-bold';
   font-size: 20px;
 }
+
+.benefits__card__icon{
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s linear;
+}
+
+.benifts__card--stock:hover .benefits__card__icon{
+  animation: spin 1.5s infinite linear;
+}
+
+.benifts__card--shipping:hover .benefits__card__icon{
+  animation: moveRight 5s ease-in-out forwards;
+}
+
+.benifts__card--customer:hover .benefits__card__icon{
+  transform: rotateY(180deg);
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveRight {
+
+  0%{
+    left:0;
+  }
+
+  30%{
+    transform: translate(-150px,0);
+  }
+
+  75%{
+    transform: translate(180px,0);
+  }
+
+  100%{
+    transform: rotateY(180deg);
+    transform: translate(0,0);
+  }
+}
